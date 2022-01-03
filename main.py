@@ -91,6 +91,6 @@ if __name__ == "__main__":
     seventh_block.display_transaction()
     
     block_nonce = Blockchain.generate_block_nonce()
-    eighth_block = Blockchain(8, block_nonce, seventh_block.block_hash, "Judith: PvdV")
+    eighth_block = Blockchain(8, block_nonce, seventh_block.block_hash, "Judith: PvdA")
     eighth_block.generate_block_hash()
     eighth_block.display_transaction()
